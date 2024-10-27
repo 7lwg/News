@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-// import 'package:meta/meta.dart';
 import 'package:news_app_ahmed_othman_alhalwagy/data/Repositroy/get_news_repo.dart';
 
 part 'search_state.dart';

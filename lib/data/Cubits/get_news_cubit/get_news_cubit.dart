@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-// import 'package:meta/meta.dart';
 import 'package:news_app_ahmed_othman_alhalwagy/data/Modules/get_news_model.dart';
 import 'package:news_app_ahmed_othman_alhalwagy/data/Repositroy/get_news_repo.dart';
 

@@ -12,7 +12,6 @@ class GetLatestNewsCubit extends Cubit<GetLatestNewsState> {
   GetNewsRepo newsLatestRepo = GetNewsRepo();
 
   getLatestNews() async {
-    // print('latest News1');
     emit(GetLatestNewsLoading());
 
     try {

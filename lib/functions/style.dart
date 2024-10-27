@@ -83,7 +83,6 @@ getTextGrey(BuildContext context) {
       ],
       defaultValue: 12.0,
     ).value,
-    // color: Colors.white
   );
 }
 
@@ -98,12 +97,10 @@ getTextBlackHeader(BuildContext context) {
         const Condition.largerThan(name: TABLET, value: 28.0),
         const Condition.largerThan(name: DESKTOP, value: 32.0),
         const Condition.largerThan(name: 'XL', value: 36.0),
-        // Condition.largerThan(name: 'XXL', value: 36.0),
       ],
       defaultValue: 12.0,
     ).value,
     color: Colors.black,
-    // fontWeight: FontWeight.bold
   );
 }
 
@@ -118,12 +115,10 @@ getTextWhiteHeader(BuildContext context) {
         const Condition.largerThan(name: TABLET, value: 28.0),
         const Condition.largerThan(name: DESKTOP, value: 32.0),
         const Condition.largerThan(name: 'XL', value: 36.0),
-        // Condition.largerThan(name: 'XXL', value: 36.0),
       ],
       defaultValue: 12.0,
     ).value,
     color: Colors.white,
-    // fontWeight: FontWeight.bold
   );
 }
 
@@ -138,12 +133,10 @@ getLoginHeader(BuildContext context) {
         const Condition.largerThan(name: TABLET, value: 44.0),
         const Condition.largerThan(name: DESKTOP, value: 48.0),
         const Condition.largerThan(name: 'XL', value: 52.0),
-        // Condition.largerThan(name: 'XXL', value: 60.0),
       ],
       defaultValue: 12.0,
     ).value,
     color: const Color(0xfff0a307),
-    // fontWeight: FontWeight.bold
   );
 }
 
@@ -158,7 +151,6 @@ getSplashScreen(BuildContext context) {
         const Condition.largerThan(name: TABLET, value: 44.0),
         const Condition.largerThan(name: DESKTOP, value: 48.0),
         const Condition.largerThan(name: 'XL', value: 52.0),
-        // Condition.largerThan(name: 'XXL', value: 60.0),
       ],
       defaultValue: 12.0,
     ).value,
