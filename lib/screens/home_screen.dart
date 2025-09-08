@@ -1,4 +1,4 @@
-// ignore_for_file: invalid_use_of_protected_member, sized_box_for_whitespace, invalid_use_of_visible_for_testing_member, avoid_unnecessary_containers
+// ignore_for_file: invalid_use_of_protected_member, sized_box_for_whitespace, invalid_use_of_visible_for_testing_member, avoid_unnecessary_containers, deprecated_member_use
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
